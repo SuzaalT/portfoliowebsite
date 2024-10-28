@@ -11,48 +11,105 @@
       <nav class="side-navbar">
         <ul>
           <li><a href="#home" class="navbar-content">Home</a></li>
-          <li><a href="#contact" class="navbar-content">Contact</a></li>
           <li><a href="#projects" class="navbar-content">Projects</a></li>
+          <li><a href="#contact" class="navbar-content">Contact</a></li>
+          <li>
+            <a href="Suzaal-Proff-cv.pdf" class="navbar-content" target="_blank"
+              >Resume</a
+            >
+          </li>
         </ul>
         <div class="side-footer">
-          <a href="#"
+          <a href="https://www.facebook.com/Suzaal101" target="_blank"
             ><img src="images/logo/icons8-facebook-50.png" alt="Facebook logo"
           /></a>
-          <a href="#"
+          <a href="https://www.instagram.com/_suzaal/" target="_blank"
             ><img
               src="images/logo/icons8-instagram-50.png"
+              target="_blank"
               alt="Instagram logo"
           /></a>
-          <a href="#"
+          <a href="https://github.com/SuzaalT" target="_blank"
             ><img src="images/logo/icons8-github-50.png" alt="GitHub logo"
           /></a>
         </div>
       </nav>
       <div class="main-container">
-        <div class="main-container-description">
-          <h3>Suzaal Thapa</h3>
-          <h1>Front-End Developer</h1>
-        </div>
-        <div class="contact">
-          <form
-            action="https://formspree.io/f/xoqgwnwb"
-            method="POST"
-            enctype="multipart/form-data"
-          >
-            <label for="name">Name:</label><br />
-            <input type="text" id="name" name="name" /><br /><br />
+        <section class="Home" id="Home">
+          <div class="hero-section">
+            <button class="moon" onclick="darkmode()"></button>
+            <div class="text-content">
+              <h2>SUZAAL THAPA</h2>
+              <h1>FRONTEND <span class="plus">DEVELOPER</span></h1>
+              <p class="description">
+                Passionate about building engaging web experiences for everyone.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="projects">
+            <h1>MY PROJECTS</h1>
+            <div class="project-container">
+         
+              <div class="project-card">
+                  <img src="images/Myprojects/a1.png" alt="Project 1">
+                  <h2>SUZAALCELL</h2>
+                  <p>This project is a clone of the Supercell website, showcasing my skills in front-end development. The replica captures the essence of the original site, featuring a responsive design, smooth navigation, and interactive elements. Utilizing HTML, CSS, and JavaScript, I've implemented a visually appealing layout that highlights Supercell's unique branding and game portfolio. This project demonstrates my ability to create engaging web experiences while adhering to best practices in web design and development.</p>
+                  <a href="https://suzaalt.github.io/A1/" target="_blank">View Project</a>
+              </div>
+              <div class="project-card">
+                  <img src="images/Myprojects/rps.png" alt="Project 2">
+                  <h2>ROCK-PAPER-SCISSORS</h2>
+                  <p>This project presents a humorous twist on the classic game of Rock-Paper-Scissors. In this parody version, players can choose from an array of funny and unexpected options.The game retains the original's simplicity while introducing playful mechanics and entertaining animations. Built with HTML, CSS, and JavaScript, this project showcases my creativity and programming skills, inviting players to enjoy a lighthearted take on a beloved classic.</p>
+                  <a href="https://suzaalt.github.io/RPS/" target="_blank">View Project</a>
+              </div>
+      
+              <div class="project-card">
+                  <img src="images/Myprojects/flappybird.png" alt="Project 3">
+                  <h2>FLAPPYBIRD</h2>
+                  <p>This project is a clone of the popular mobile game Flappy Bird, originally developed by Dong Nguyen. The game features a simple yet addictive gameplay mechanic where players control a small bird by tapping the screen to make it flap its wings. The objective is to navigate through a series of pipes without colliding, creating a challenging and engaging experience.</p>
+                  <a href="https://suzaalt.github.io/FlappyBird/" target="_blank">View Project</a>
+              </div>
+              <div class="project-card">
+                <img src="images/Myprojects/laliguras.png" alt="Project 4">
+                <h2>LALIGURANS</h2>
+                <p>This project involves creating a dynamic website for a restaurant in Toronto, aimed at enhancing its online presence and attracting more customers. The website will feature a user-friendly interface that showcases the restaurant's menu, ambiance, and unique offerings. Key elements will include an interactive menu section with descriptions and prices, an image gallery highlighting the restaurant's interior and dishes, and a reservation system to streamline booking.
 
-            <label for="email">Email:</label><br />
-            <input type="email" id="email" name="email" /><br /><br />
+                  Utilizing HTML, CSS, and JavaScript, I aim to develop a responsive design that ensures an optimal viewing experience on both desktop and mobile devices. This project emphasizes my skills in front-end development while providing a platform for the restaurant to connect with its clientele and grow its business.</p>
+                <a href="https://suzaalt.github.io/KathmanduCommon/" target="_blank">View Project</a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="contact">
+            <h1>Contact Me</h1>
+            <form
+              action="https://formspree.io/f/xoqgwnwb"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
 
-            <label for="message">Message:</label><br />
-            <textarea id="message" name="message" rows="4" cols="50"></textarea
-            ><br /><br />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
 
-            <input type="submit" value="Submit" class="" />
-          </form>
-        </div>
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </section>
+        <h6>© suzaalthapa. All Rights Reserved</h6>
       </div>
     </div>
+    <script src="script.js" def></script>
+  
   </body>
 </html>
